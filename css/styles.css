@@ -1,0 +1,26 @@
+html{
+	background-color: #f7f7f7;
+}
+
+body{
+	font-family: 'Oswald', sans-serif;
+	background-color: : white; 
+	background-image: url("img/world-map.png");
+	max-width: 1000px; 
+	margin: 0 auto;
+	color: rgb(49, 46, 46);
+}
+
+header, footer{
+	background: #1b41a8;
+	color: white; 
+}
+
+.description{
+	box-sizing: border-box;
+	border: 1px solid grey;
+	width: 300px; 
+	height: 450px;
+	margin: 5px;
+	padding: 10px;
+	display: inline-block;
