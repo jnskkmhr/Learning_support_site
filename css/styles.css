@@ -5,7 +5,7 @@ html{
 body{
 	/*font-family: 'Oswald', sans-serif;*/
 	background-color: : #e9ecf2; 
-	max-width: 1000px; 
+	max-width: 1050px; 
 	margin: 0 auto;
 	color: rgb(49, 46, 46);
 }
@@ -21,22 +21,25 @@ a:hover{
 
 header h1{
 	font-family: 'Lobster', cursive;
+	font-size: 40px; 
 }
 
 header li{
 	font-family: 'Oswald', sans-serif; 
 	display: inline;
+	font-size: 15px; 
 }
 
 footer li{
 	font-family: 'Oswald', sans-serif; 
 	display: inline;
+	font-size: 15px; 
 }
 
 header, footer{
 	background: #050505;
 	color: white; 
-	padding: 10px; 
+	padding: 10px 10px; 
 }
 
 
@@ -56,6 +59,7 @@ main{
 	padding: 25px; 
 	background-image: url("../img/world-map.png");
 	background-size: cover; 
+	background-attachment: fixed;
 }
 
 .top_page h1{
@@ -70,10 +74,11 @@ main{
 .top_page a{
 	font-size: 25px; 
 	font-family: 'Source Sans Pro', sans-serif;
-	padding: 5px; 
+	padding: 15px; 
 	margin: 40px 160px; 
 	display: inline-block;
 	background: #2991d6;
+	border-radius: 15px; 
 	color: white;
 }
 
