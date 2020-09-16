@@ -1,26 +1,96 @@
 html{
-	background-color: #f7f7f7;
+	background-color: #fafcfc;
 }
 
 body{
 	font-family: 'Oswald', sans-serif;
-	background-color: : white; 
-	background-image: url("img/world-map.png");
+	background-color: : #e9ecf2; 
 	max-width: 1000px; 
 	margin: 0 auto;
 	color: rgb(49, 46, 46);
 }
 
+a{
+	text-decoration: none; 
+	color: inherit;
+}
+
+a:hover{
+	color: #0e69e9; 
+}
+
+header h1{
+	font-family: 'Lobster', cursive;
+}
+
+header li{
+	font-family: 'Oswald', sans-serif; 
+	display: inline;
+}
+
+footer li{
+	font-family: 'Oswald', sans-serif; 
+	display: inline;
+}
+
 header, footer{
-	background: #1b41a8;
+	background: #050505;
 	color: white; 
+	padding: 10px; 
+}
+
+
+ul{
+	margin: 0; 
+	padding: 0;
+}
+
+li{
+	list-style: none; 
+}
+
+/*Main section style*/
+main{
+	display: inline-block;
+	width: 1000px; 
+	padding: 25px; 
+	background-image: url("../img/world-map.png");
+	background-size: cover; 
 }
 
 .description{
 	box-sizing: border-box;
-	border: 1px solid grey;
-	width: 300px; 
-	height: 450px;
+	border: 5px solid black;
 	margin: 5px;
 	padding: 10px;
 	display: inline-block;
+	width: 800px;
+}
+
+.top_page h1{
+	font-size: 60px; 
+	font-family: 'Vollkorn', serif;
+}
+.top_page p{
+	font-size: 25px; 
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.top_page a{
+	font-size: 25px; 
+	font-family: 'Source Sans Pro', sans-serif;
+	padding: 5px; 
+	margin: 40px 160px; 
+	display: inline-block;
+	background: #2991d6;
+	color: white;
+}
+
+.top_page a:hover{
+	color: #0e69e9; 
+}
+
+
+
+
+
