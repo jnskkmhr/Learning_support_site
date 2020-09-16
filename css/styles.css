@@ -3,7 +3,7 @@ html{
 }
 
 body{
-	font-family: 'Oswald', sans-serif;
+	/*font-family: 'Oswald', sans-serif;*/
 	background-color: : #e9ecf2; 
 	max-width: 1000px; 
 	margin: 0 auto;
@@ -90,6 +90,7 @@ main{
 }
 
 .description{
+	font-family: 'Source Sans Pro', sans-serif;
 	box-sizing: border-box;
 	border: 5px solid black;
 	margin: 5px;
