@@ -21,13 +21,14 @@ a:hover{
 
 header h1{
 	font-family: 'Lobster', cursive;
-	font-size: 40px; 
+	font-size: 50px;  
 }
 
 header li{
 	font-family: 'Oswald', sans-serif; 
 	display: inline;
 	font-size: 15px; 
+	text-align: right;
 }
 
 footer li{
@@ -62,6 +63,8 @@ main{
 	background-attachment: fixed;
 }
 
+/*Home*/
+
 .top_page h1{
 	font-size: 60px; 
 	font-family: 'Vollkorn', serif;
@@ -94,6 +97,8 @@ main{
 	font-size: 20px; 
 }
 
+/*About Us*/
+
 .description{
 	font-family: 'Source Sans Pro', sans-serif;
 	box-sizing: border-box;
@@ -112,5 +117,114 @@ main{
 	font-size: 20px; 
 }
 
+/*Resources*/
+
+.resources {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+.resources h2{
+	font-size: 40px;
+}
+
+.resources p {
+	font-size: 20px; 
+}
+
+.subjects {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: bold;
+}
+
+.subjects h3 {
+	font-size: 40px; 
+}
+
+.subjects p {
+	font-size: 20px; 
+}
 
 
+.english {
+	width: 400px; 
+	height: 250px; 
+	display: inline-block;
+	margin: 10px; 
+	text-align: center;
+	padding: 10px; 
+	background-image: url(../img/english.jpg);
+	background-size: cover;
+	background-color:rgba(255,255,255,0.6);
+	background-blend-mode:lighten;
+	border: 5px solid black
+}
+
+.english:hover {
+	background-color: rgba(142, 173, 232, 0.8);
+}
+
+.mathematics {
+	width: 400px; 
+	height: 250px;
+	display: inline-block;
+	margin: 10px; 
+	text-align: center;
+	padding: 10px; 
+	background-image: url(../img/math.jpg);
+	background-size: cover;
+	background-color:rgba(255,255,255,0.6);
+	background-blend-mode:lighten;
+	border: 5px solid black
+}
+
+.mathematics:hover {
+	background-color: rgba(142, 173, 232, 0.8);
+}
+
+.physics {
+	width: 400px; 
+	height: 250px;
+	display: inline-block;
+	margin: 10px; 
+	text-align: center;
+	padding: 10px; 
+	background-image: url(../img/physics.jpg);
+	background-size: cover;
+	background-color:rgba(255,255,255,0.8);
+	background-blend-mode:lighten;
+	border: 5px solid black
+}
+
+.physics:hover {
+	background-color: rgba(142, 173, 232, 0.8);
+}
+
+.chemistry {
+	width: 400px; 
+	height: 250px;
+	display: inline-block;
+	margin: 10px; 
+	text-align: center;
+	padding: 10px; 
+	background-image: url(../img/chemistry.jpg);
+	background-size: cover;
+	background-color:rgba(255,255,255,0.6);
+	background-blend-mode:lighten;
+	border: 5px solid black
+}
+
+.chemistry:hover {
+	background-color: rgba(142, 173, 232, 0.8);
+}
+
+/* Review */
+
+.review {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+.review h2{
+	font-size: 40px;
+}
+
+.review p {
+	font-size: 20px; 
+}
