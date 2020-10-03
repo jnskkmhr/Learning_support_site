@@ -228,3 +228,69 @@ main{
 .review p {
 	font-size: 20px; 
 }
+
+/*About English in resources page*/
+
+.reading {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+.reading h2{
+	font-size: 40px;
+}
+
+.reading p {
+	font-size: 20px; 
+}
+
+.reading a{
+	font-size: 15px; 
+	font-family: 'Source Sans Pro', sans-serif;
+	padding: 8px; 
+	border-radius: 8px; 
+	color: white;
+}
+
+.reading .h{
+	background: #ed2f21;
+}
+
+.reading .h-i{
+	background-color: #fa632f; 
+}
+
+.reading .i{
+	background-color: #fa982f; 
+}
+
+/*listening content*/
+
+.listening {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+.listening h2{
+	font-size: 40px;
+}
+
+.listening p {
+	font-size: 20px; 
+}
+
+.listening a{
+	font-size: 15px; 
+	font-family: 'Source Sans Pro', sans-serif;
+	padding: 8px; 
+	border-radius: 8px; 
+	color: white;
+}
+
+.listening .h{
+	background: #ed2f21;
+}
+
+.listening .h-i{
+	background-color: #fa632f; 
+}
+
+.listening .i{
+	background-color: #fa982f; 
+}
